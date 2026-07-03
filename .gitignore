@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables (CRITICAL: Never upload these!)
+.env
+server/.env
+client/.env
+
+# Uploaded Files (Don't bloat your repo with test PDFs)
+server/uploads/
+
+# Build outputs
+client/dist/
+client/build/
